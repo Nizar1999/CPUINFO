@@ -1,2 +1,2 @@
 # CPUINFO
-Program that retrieves vendor id and processor brand using the cpuid instruction
+Program that uses C and in-line assembly to retrieve vendor id and processor brand
