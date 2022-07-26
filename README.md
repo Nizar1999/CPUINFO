@@ -2,9 +2,7 @@
   <img src="https://github.com/Nizar1999/CPUINFO/blob/main/screenshots/Banner.png" width = 55%; height=55% />
 </p>
 
-Program That Uses C and In-Line Assembly to Retrieve Vendor Id and Processor Brand
-
-# Assembly Code
+Program that executes cpuid accessc calls to retrieve vendor id and processor brand
 
 # Example Output
 ![usage](./screenshots/Usage.png)
