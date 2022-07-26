@@ -6,9 +6,9 @@ int main() {
 	puts("----------------\n");
 
 	//Vendor ID string
-	char VendorIdStr[13];		//12 bytes for the string, with 1 for the null termination
+	char VendorIdStr[13];			//12 bytes for the string, with 1 for the null termination
 	__asm {
-		lea edi, VendorIdStr	//Load the address of vendor string into edi
+		lea edi, VendorIdStr		//Load the address of vendor string into edi
 		xor eax, eax			//Xor eax to tell the cpu we want to print the vendor string
 		cpuid				//Call cpuid
 		mov [edi], ebx			//Copy the result string from the registers into the variable
